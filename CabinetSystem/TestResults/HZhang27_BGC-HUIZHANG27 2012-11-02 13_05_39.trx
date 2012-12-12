@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c28b0ac8-5bbf-481a-8e73-b4778f6fd060" name="HZhang27@BGC-HUIZHANG27 2012-11-02 13:05:39" runUser="DIR\HZhang27" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="287d6ab1-aea9-47ca-9322-0e86b43ef892">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetSystem\TestResults\HZhang27_BGC-HUIZHANG27 2012-11-02 13_05_39">
+      <DeploymentItem filename="\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetSystem\bin\Debug\CabinetSystem.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="BGC-HUIZHANG27" outcome="Error" timestamp="2012-11-02T13:05:42.5478576+08:00">
+        <Text>Failed to queue test run 'HZhang27@BGC-HUIZHANG27 2012-11-02 13:05:39': Test Run deployment issue: The location of the file or directory '\\bgc-mw990-del\share\oocampprojects\zhanghui\cabinet\cabinettest\bin\debug\cabinettest.dll' is not trusted.</Text>
+        <Exception>Microsoft.VisualStudio.TestTools.TestManagement.ExecutionException: Test Run deployment issue: The location of the file or directory '\\bgc-mw990-del\share\oocampprojects\zhanghui\cabinet\cabinettest\bin\debug\cabinettest.dll' is not trusted.
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)
+   at Microsoft.VisualStudio.TestTools.TestManagement.ControllerProxy.SetupTestRun(TestRun run, Boolean isNewTestRun, FileCopyService&amp; fileCopyService)
+   at Microsoft.VisualStudio.TestTools.TestManagement.ControllerProxy.QueueTestRunWorker(Object state)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2012-11-02T13:05:39.8067009+08:00" queuing="2012-11-02T13:05:39.8067009+08:00" start="2012-11-02T13:05:39.8067009+08:00" finish="2012-11-02T13:05:42.5618584+08:00" />
+  <TestDefinitions>
+    <UnitTest name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" storage="\\bgc-mw990-del\share\oocampprojects\zhanghui\cabinet\cabinettest\bin\debug\cabinettest.dll" id="ce7f33f9-9475-1133-9989-146c2510893b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.RobotTest, CabinetTest" name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ce7f33f9-9475-1133-9989-146c2510893b" executionId="528e12c6-6bd7-49f5-bb79-9d63cf1c54c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="528e12c6-6bd7-49f5-bb79-9d63cf1c54c4" testId="ce7f33f9-9475-1133-9989-146c2510893b" testName="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00" startTime="0001-01-01T08:00:00.0000000+08:00" endTime="0001-01-01T08:00:00.0000000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

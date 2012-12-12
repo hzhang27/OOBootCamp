@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d3ba94a5-012a-427e-8a11-447f16054482" name="HZhang27@BGC-HUIZHANG27 2012-12-08 01:16:44" runUser="DIR\HZhang27" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="287d6ab1-aea9-47ca-9322-0e86b43ef892">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\TestResults\HZhang27_BGC-HUIZHANG27 2012-12-08 01_16_44" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2012-12-08T01:16:44.1539052+08:00" queuing="2012-12-08T01:16:44.8529451+08:00" start="2012-12-08T01:16:44.9279494+08:00" finish="2012-12-08T01:16:45.0899587+08:00" />
+  <TestDefinitions>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="09b27779-2cff-c61b-5852-2cee21a5fa9a">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="56acab50-0038-4044-b0bd-28eea3ee2151" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SuperRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09b27779-2cff-c61b-5852-2cee21a5fa9a" executionId="56acab50-0038-4044-b0bd-28eea3ee2151" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="56acab50-0038-4044-b0bd-28eea3ee2151" testId="09b27779-2cff-c61b-5852-2cee21a5fa9a" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0116634" startTime="2012-12-08T01:16:44.9729520+08:00" endTime="2012-12-08T01:16:45.0449561+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

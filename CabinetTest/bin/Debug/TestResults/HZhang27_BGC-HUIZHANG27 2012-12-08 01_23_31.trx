@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4cbf8c6d-293d-4fa5-ac33-74dd5653fa7d" name="HZhang27@BGC-HUIZHANG27 2012-12-08 01:23:31" runUser="DIR\HZhang27" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="287d6ab1-aea9-47ca-9322-0e86b43ef892">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\TestResults\HZhang27_BGC-HUIZHANG27 2012-12-08 01_23_31" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="18" executed="18" passed="10" error="0" failed="8" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2012-12-08T01:23:31.3831973+08:00" queuing="2012-12-08T01:23:32.0972382+08:00" start="2012-12-08T01:23:32.1772428+08:00" finish="2012-12-08T01:23:32.4642592+08:00" />
+  <TestDefinitions>
+    <UnitTest name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="a0d9b48c-c41f-dd2c-4199-0879ee5fd2be">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="d0150d34-55e2-4dd4-9115-39f845278c65" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.RobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" />
+    </UnitTest>
+    <UnitTest name="StoreBag_In_Highest_Vacancy_Rate_Cabinet" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="d63eeb64-1cb5-22b4-ce0b-4ca4cf739507">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="20182246-1e18-4a7f-a31b-57c92b18f379" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SuperRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StoreBag_In_Highest_Vacancy_Rate_Cabinet" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="a3941f7d-72a4-3280-3519-01826a3ad2a6">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="8c9f2cd8-b5f7-47a5-b02d-eb1891e81a33" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.RobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="3c3537dd-0a85-8c09-fbce-0fe540616ae8">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="af6c88e5-9108-4a32-bbc6-0b8c135d9341" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SmartRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="e702d8ba-c3ee-7c5d-a320-ac2910ef859d">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="2a455d58-37e1-4247-a691-dd0573fe3519" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SuperRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="2ec0cb6a-0e2c-7b87-322a-eed8f9432ae6">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="4dcf7ac1-cfa7-44ad-b8ee-2649201e31ce" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SmartRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="fc418ef8-0ecf-3c9c-9c59-e85542f2e812">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="05b0747d-5294-4126-b7ee-cad8df79d35b" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SuperRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="0a987830-0f93-1c95-7fa8-b94d95c4ba48">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="ee4ba0d2-ec98-453a-bfca-9b61895df23d" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SmartRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="ce7f33f9-9475-1133-9989-146c2510893b">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="f7f80d10-a510-4d00-bce0-5da332bb0303" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.RobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="e80522b4-fe7d-c412-7f8c-3294f406a334">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="3e630fba-8616-4ff8-8bf6-d4f83cb36546" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SmartRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="1fe40d2f-79a6-b0d2-90bd-c802dfa91d7d">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="59c4afca-1e13-45cc-b984-c23a6c5673e4" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SuperRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Cabinet_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="0ca6a88a-717a-7a69-dad6-f677fd020750">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="3b0950cf-5cd8-4b68-8cdd-a831a59df4e8" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.CabinetTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_Cabinet_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_Return_NULL_When_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="d21da168-b89d-96b9-2c8c-212fd5b4719e">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="0d58c799-aab9-49dc-b4d4-6e2a903aba28" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.CabinetTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_Return_NULL_When_Give_InValid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="09b27779-2cff-c61b-5852-2cee21a5fa9a">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="66697cc3-f942-403c-a4e0-53cba9b4e9b2" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SuperRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="cf337f3f-06fd-eff3-0301-eb555ab30e69">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="671a8cc0-4dbc-4309-91ff-aefe06462b72" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.CabinetTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="StoreBag_In_MostEmpty_Cabinet" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="194e3b99-72c0-389d-e81a-acbfe18096fb">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="12ae36a5-7de0-410d-a606-b1519b65fb98" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.SmartRobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StoreBag_In_MostEmpty_Cabinet" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Cabinet_Has_EmptyBox_Return_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="97035d4c-58db-3eef-de98-be4571829869">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="319017d9-410f-4a2c-a7a2-b832edc6a550" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.CabinetTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Store_One_Bag_When_Cabinet_Has_EmptyBox_Return_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="9956c182-ae45-5a02-6226-f241d4a86f27">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="782e8c0c-cbd9-43d2-aa2e-3f30a830c154" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/SMRs/BootCamp/Cabinet/CabinetTest/bin/Debug/CabinetTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="CabinetTest.RobotTest, CabinetTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cf337f3f-06fd-eff3-0301-eb555ab30e69" executionId="671a8cc0-4dbc-4309-91ff-aefe06462b72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d21da168-b89d-96b9-2c8c-212fd5b4719e" executionId="0d58c799-aab9-49dc-b4d4-6e2a903aba28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ca6a88a-717a-7a69-dad6-f677fd020750" executionId="3b0950cf-5cd8-4b68-8cdd-a831a59df4e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97035d4c-58db-3eef-de98-be4571829869" executionId="319017d9-410f-4a2c-a7a2-b832edc6a550" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9956c182-ae45-5a02-6226-f241d4a86f27" executionId="782e8c0c-cbd9-43d2-aa2e-3f30a830c154" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3941f7d-72a4-3280-3519-01826a3ad2a6" executionId="8c9f2cd8-b5f7-47a5-b02d-eb1891e81a33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce7f33f9-9475-1133-9989-146c2510893b" executionId="f7f80d10-a510-4d00-bce0-5da332bb0303" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0d9b48c-c41f-dd2c-4199-0879ee5fd2be" executionId="d0150d34-55e2-4dd4-9115-39f845278c65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c3537dd-0a85-8c09-fbce-0fe540616ae8" executionId="af6c88e5-9108-4a32-bbc6-0b8c135d9341" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ec0cb6a-0e2c-7b87-322a-eed8f9432ae6" executionId="4dcf7ac1-cfa7-44ad-b8ee-2649201e31ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a987830-0f93-1c95-7fa8-b94d95c4ba48" executionId="ee4ba0d2-ec98-453a-bfca-9b61895df23d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e80522b4-fe7d-c412-7f8c-3294f406a334" executionId="3e630fba-8616-4ff8-8bf6-d4f83cb36546" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="194e3b99-72c0-389d-e81a-acbfe18096fb" executionId="12ae36a5-7de0-410d-a606-b1519b65fb98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09b27779-2cff-c61b-5852-2cee21a5fa9a" executionId="66697cc3-f942-403c-a4e0-53cba9b4e9b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc418ef8-0ecf-3c9c-9c59-e85542f2e812" executionId="05b0747d-5294-4126-b7ee-cad8df79d35b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e702d8ba-c3ee-7c5d-a320-ac2910ef859d" executionId="2a455d58-37e1-4247-a691-dd0573fe3519" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fe40d2f-79a6-b0d2-90bd-c802dfa91d7d" executionId="59c4afca-1e13-45cc-b984-c23a6c5673e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d63eeb64-1cb5-22b4-ce0b-4ca4cf739507" executionId="20182246-1e18-4a7f-a31b-57c92b18f379" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="671a8cc0-4dbc-4309-91ff-aefe06462b72" testId="cf337f3f-06fd-eff3-0301-eb555ab30e69" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0681897" startTime="2012-12-08T01:23:32.2292457+08:00" endTime="2012-12-08T01:23:32.3562530+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.CabinetTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetTest.CabinetTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\CabinetTest.cs:line 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d58c799-aab9-49dc-b4d4-6e2a903aba28" testId="d21da168-b89d-96b9-2c8c-212fd5b4719e" testName="Pick_Return_NULL_When_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0044331" startTime="2012-12-08T01:23:32.3572531+08:00" endTime="2012-12-08T01:23:32.3622533+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.CabinetTest.Pick_Return_NULL_When_Give_InValid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetTest.CabinetTest.Pick_Return_NULL_When_Give_InValid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\CabinetTest.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b0950cf-5cd8-4b68-8cdd-a831a59df4e8" testId="0ca6a88a-717a-7a69-dad6-f677fd020750" testName="Store_One_Bag_When_Cabinet_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0003887" startTime="2012-12-08T01:23:32.3622533+08:00" endTime="2012-12-08T01:23:32.3632534+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="319017d9-410f-4a2c-a7a2-b832edc6a550" testId="97035d4c-58db-3eef-de98-be4571829869" testName="Store_One_Bag_When_Cabinet_Has_EmptyBox_Return_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0003092" startTime="2012-12-08T01:23:32.3642535+08:00" endTime="2012-12-08T01:23:32.3652535+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="782e8c0c-cbd9-43d2-aa2e-3f30a830c154" testId="9956c182-ae45-5a02-6226-f241d4a86f27" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0034984" startTime="2012-12-08T01:23:32.3652535+08:00" endTime="2012-12-08T01:23:32.3692537+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.RobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetSystem.Robot.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Robot.cs:line 31
+   at CabinetTest.RobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\RobotTest.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c9f2cd8-b5f7-47a5-b02d-eb1891e81a33" testId="a3941f7d-72a4-3280-3519-01826a3ad2a6" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0022428" startTime="2012-12-08T01:23:32.3702538+08:00" endTime="2012-12-08T01:23:32.3732540+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.RobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetSystem.Robot.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Robot.cs:line 31
+   at CabinetTest.RobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\RobotTest.cs:line 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f7f80d10-a510-4d00-bce0-5da332bb0303" testId="ce7f33f9-9475-1133-9989-146c2510893b" testName="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0006819" startTime="2012-12-08T01:23:32.3732540+08:00" endTime="2012-12-08T01:23:32.3742540+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0150d34-55e2-4dd4-9115-39f845278c65" testId="a0d9b48c-c41f-dd2c-4199-0879ee5fd2be" testName="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0007288" startTime="2012-12-08T01:23:32.3752541+08:00" endTime="2012-12-08T01:23:32.3762541+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af6c88e5-9108-4a32-bbc6-0b8c135d9341" testId="3c3537dd-0a85-8c09-fbce-0fe540616ae8" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0031474" startTime="2012-12-08T01:23:32.3762541+08:00" endTime="2012-12-08T01:23:32.3802544+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.SmartRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetSystem.Robot.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Robot.cs:line 31
+   at CabinetTest.SmartRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\SmartRobotTest.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4dcf7ac1-cfa7-44ad-b8ee-2649201e31ce" testId="2ec0cb6a-0e2c-7b87-322a-eed8f9432ae6" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0022460" startTime="2012-12-08T01:23:32.3812544+08:00" endTime="2012-12-08T01:23:32.3852547+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.SmartRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetSystem.Robot.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Robot.cs:line 31
+   at CabinetTest.SmartRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\SmartRobotTest.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee4ba0d2-ec98-453a-bfca-9b61895df23d" testId="0a987830-0f93-1c95-7fa8-b94d95c4ba48" testName="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0007448" startTime="2012-12-08T01:23:32.3862547+08:00" endTime="2012-12-08T01:23:32.3872548+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e630fba-8616-4ff8-8bf6-d4f83cb36546" testId="e80522b4-fe7d-c412-7f8c-3294f406a334" testName="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0005485" startTime="2012-12-08T01:23:32.3872548+08:00" endTime="2012-12-08T01:23:32.3892549+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12ae36a5-7de0-410d-a606-b1519b65fb98" testId="194e3b99-72c0-389d-e81a-acbfe18096fb" testName="StoreBag_In_MostEmpty_Cabinet" computerName="BGC-HUIZHANG27" duration="00:00:00.0166714" startTime="2012-12-08T01:23:32.3892549+08:00" endTime="2012-12-08T01:23:32.4062559+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="66697cc3-f942-403c-a4e0-53cba9b4e9b2" testId="09b27779-2cff-c61b-5852-2cee21a5fa9a" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0034445" startTime="2012-12-08T01:23:32.4072559+08:00" endTime="2012-12-08T01:23:32.4112561+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.SuperRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetSystem.Robot.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Robot.cs:line 31
+   at CabinetTest.SuperRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\SuperRobotTest.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="05b0747d-5294-4126-b7ee-cad8df79d35b" testId="fc418ef8-0ecf-3c9c-9c59-e85542f2e812" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0021023" startTime="2012-12-08T01:23:32.4142563+08:00" endTime="2012-12-08T01:23:32.4162564+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.SuperRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket threw exception:  System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CabinetSystem.Cabinet.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Cabinet.cs:line 60
+   at CabinetSystem.Robot.Pick(Ticket ticket) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Robot.cs:line 31
+   at CabinetTest.SuperRobotTest.Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\SuperRobotTest.cs:line 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a455d58-37e1-4247-a691-dd0573fe3519" testId="e702d8ba-c3ee-7c5d-a320-ac2910ef859d" testName="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0007204" startTime="2012-12-08T01:23:32.4172565+08:00" endTime="2012-12-08T01:23:32.4182565+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59c4afca-1e13-45cc-b984-c23a6c5673e4" testId="1fe40d2f-79a6-b0d2-90bd-c802dfa91d7d" testName="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0006235" startTime="2012-12-08T01:23:32.4182565+08:00" endTime="2012-12-08T01:23:32.4202567+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20182246-1e18-4a7f-a31b-57c92b18f379" testId="d63eeb64-1cb5-22b4-ce0b-4ca4cf739507" testName="StoreBag_In_Highest_Vacancy_Rate_Cabinet" computerName="BGC-HUIZHANG27" duration="00:00:00.0008635" startTime="2012-12-08T01:23:32.4202567+08:00" endTime="2012-12-08T01:23:32.4212567+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5f80e8ab-3ba5-4fae-9a33-67cf986b7ca6" name="HZhang27@BGC-HUIZHANG27 2012-12-08 01:42:34" runUser="DIR\HZhang27" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="287d6ab1-aea9-47ca-9322-0e86b43ef892">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\SMRs\BootCamp\Cabinet\CabinetSystem\TestResults\HZhang27_BGC-HUIZHANG27 2012-12-08 01_42_34">
+      <DeploymentItem filename="D:\SMRs\BootCamp\Cabinet\CabinetSystem\bin\Debug\CabinetSystem.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="18" executed="18" passed="17" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2012-12-08T01:42:34.5615834+08:00" queuing="2012-12-08T01:42:36.5756986+08:00" start="2012-12-08T01:42:36.7397080+08:00" finish="2012-12-08T01:42:40.9289476+08:00" />
+  <TestDefinitions>
+    <UnitTest name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="a0d9b48c-c41f-dd2c-4199-0879ee5fd2be">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a5dbf965-428e-478e-9ab0-dbc6457c8dc1" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.RobotTest, CabinetTest" name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" />
+    </UnitTest>
+    <UnitTest name="StoreBag_In_Highest_Vacancy_Rate_Cabinet" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="d63eeb64-1cb5-22b4-ce0b-4ca4cf739507">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2dd56b89-e4a9-475a-96cc-05c58f760fa7" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SuperRobotTest, CabinetTest" name="StoreBag_In_Highest_Vacancy_Rate_Cabinet" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="a3941f7d-72a4-3280-3519-01826a3ad2a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="29bfbab3-7bb4-4fe5-839d-b4e4bd6d3c98" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.RobotTest, CabinetTest" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="3c3537dd-0a85-8c09-fbce-0fe540616ae8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d62956ab-cc6a-4800-8aa4-f181fe6f551f" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SmartRobotTest, CabinetTest" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="e702d8ba-c3ee-7c5d-a320-ac2910ef859d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bd59d16d-983d-40d3-89e8-d54b8e99b528" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SuperRobotTest, CabinetTest" name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="2ec0cb6a-0e2c-7b87-322a-eed8f9432ae6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="469df818-0d37-43a3-a09a-1ea4a56fe78f" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SmartRobotTest, CabinetTest" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="fc418ef8-0ecf-3c9c-9c59-e85542f2e812">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="18c845b1-b94f-461e-b47e-bbfc23c5577c" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SuperRobotTest, CabinetTest" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="0a987830-0f93-1c95-7fa8-b94d95c4ba48">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="769f9599-ab2f-4f36-a101-32a77cbfaf3a" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SmartRobotTest, CabinetTest" name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="ce7f33f9-9475-1133-9989-146c2510893b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="95bec304-6629-47ee-ac98-ecec772d0c54" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.RobotTest, CabinetTest" name="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="e80522b4-fe7d-c412-7f8c-3294f406a334">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cf2a5f02-59d8-40bb-9c47-9673ee226b5a" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SmartRobotTest, CabinetTest" name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="1fe40d2f-79a6-b0d2-90bd-c802dfa91d7d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a28f6c3e-002f-4332-89da-2a38ab47f9c5" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SuperRobotTest, CabinetTest" name="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Cabinet_Full_Return_Null_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="0ca6a88a-717a-7a69-dad6-f677fd020750">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="439d894f-7dd7-452e-9067-94dc44b8a003" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.CabinetTest, CabinetTest" name="Store_One_Bag_When_Cabinet_Full_Return_Null_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_Return_NULL_When_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="d21da168-b89d-96b9-2c8c-212fd5b4719e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6b089b3d-153b-4493-bb58-ece36517f398" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.CabinetTest, CabinetTest" name="Pick_Return_NULL_When_Give_InValid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="09b27779-2cff-c61b-5852-2cee21a5fa9a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4c4bfbc8-c46b-4165-9318-968a9063e967" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SuperRobotTest, CabinetTest" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="cf337f3f-06fd-eff3-0301-eb555ab30e69">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="32955f92-a9c5-4907-a9df-6fe1a1dd74f6" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.CabinetTest, CabinetTest" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="StoreBag_In_MostEmpty_Cabinet" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="194e3b99-72c0-389d-e81a-acbfe18096fb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e2b74469-53b2-4a40-a54e-a91dede16593" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.SmartRobotTest, CabinetTest" name="StoreBag_In_MostEmpty_Cabinet" />
+    </UnitTest>
+    <UnitTest name="Store_One_Bag_When_Cabinet_Has_EmptyBox_Return_Valid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="97035d4c-58db-3eef-de98-be4571829869">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="93a418c4-cb53-4583-81f5-ff593e064d55" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.CabinetTest, CabinetTest" name="Store_One_Bag_When_Cabinet_Has_EmptyBox_Return_Valid_Ticket" />
+    </UnitTest>
+    <UnitTest name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" storage="d:\smrs\bootcamp\cabinet\cabinettest\bin\debug\cabinettest.dll" id="9956c182-ae45-5a02-6226-f241d4a86f27">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="46800f63-2d7e-42e9-9e54-9468a388bb1b" />
+      <TestMethod codeBase="D:\SMRs\BootCamp\Cabinet\CabinetTest\bin\Debug\CabinetTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CabinetTest.RobotTest, CabinetTest" name="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09b27779-2cff-c61b-5852-2cee21a5fa9a" executionId="4c4bfbc8-c46b-4165-9318-968a9063e967" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a987830-0f93-1c95-7fa8-b94d95c4ba48" executionId="769f9599-ab2f-4f36-a101-32a77cbfaf3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ca6a88a-717a-7a69-dad6-f677fd020750" executionId="439d894f-7dd7-452e-9067-94dc44b8a003" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="194e3b99-72c0-389d-e81a-acbfe18096fb" executionId="e2b74469-53b2-4a40-a54e-a91dede16593" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fe40d2f-79a6-b0d2-90bd-c802dfa91d7d" executionId="a28f6c3e-002f-4332-89da-2a38ab47f9c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ec0cb6a-0e2c-7b87-322a-eed8f9432ae6" executionId="469df818-0d37-43a3-a09a-1ea4a56fe78f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c3537dd-0a85-8c09-fbce-0fe540616ae8" executionId="d62956ab-cc6a-4800-8aa4-f181fe6f551f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97035d4c-58db-3eef-de98-be4571829869" executionId="93a418c4-cb53-4583-81f5-ff593e064d55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9956c182-ae45-5a02-6226-f241d4a86f27" executionId="46800f63-2d7e-42e9-9e54-9468a388bb1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0d9b48c-c41f-dd2c-4199-0879ee5fd2be" executionId="a5dbf965-428e-478e-9ab0-dbc6457c8dc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3941f7d-72a4-3280-3519-01826a3ad2a6" executionId="29bfbab3-7bb4-4fe5-839d-b4e4bd6d3c98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce7f33f9-9475-1133-9989-146c2510893b" executionId="95bec304-6629-47ee-ac98-ecec772d0c54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf337f3f-06fd-eff3-0301-eb555ab30e69" executionId="32955f92-a9c5-4907-a9df-6fe1a1dd74f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d21da168-b89d-96b9-2c8c-212fd5b4719e" executionId="6b089b3d-153b-4493-bb58-ece36517f398" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d63eeb64-1cb5-22b4-ce0b-4ca4cf739507" executionId="2dd56b89-e4a9-475a-96cc-05c58f760fa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e702d8ba-c3ee-7c5d-a320-ac2910ef859d" executionId="bd59d16d-983d-40d3-89e8-d54b8e99b528" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e80522b4-fe7d-c412-7f8c-3294f406a334" executionId="cf2a5f02-59d8-40bb-9c47-9673ee226b5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc418ef8-0ecf-3c9c-9c59-e85542f2e812" executionId="18c845b1-b94f-461e-b47e-bbfc23c5577c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4c4bfbc8-c46b-4165-9318-968a9063e967" testId="09b27779-2cff-c61b-5852-2cee21a5fa9a" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:02.8709484" startTime="2012-12-08T01:42:36.8757158+08:00" endTime="2012-12-08T01:42:40.6359308+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="769f9599-ab2f-4f36-a101-32a77cbfaf3a" testId="0a987830-0f93-1c95-7fa8-b94d95c4ba48" testName="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0015012" startTime="2012-12-08T01:42:40.6389310+08:00" endTime="2012-12-08T01:42:40.6459314+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="439d894f-7dd7-452e-9067-94dc44b8a003" testId="0ca6a88a-717a-7a69-dad6-f677fd020750" testName="Store_One_Bag_When_Cabinet_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0002322" startTime="2012-12-08T01:42:40.6509317+08:00" endTime="2012-12-08T01:42:40.6559320+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2b74469-53b2-4a40-a54e-a91dede16593" testId="194e3b99-72c0-389d-e81a-acbfe18096fb" testName="StoreBag_In_MostEmpty_Cabinet" computerName="BGC-HUIZHANG27" duration="00:00:00.0028619" startTime="2012-12-08T01:42:40.6629324+08:00" endTime="2012-12-08T01:42:40.6699328+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a28f6c3e-002f-4332-89da-2a38ab47f9c5" testId="1fe40d2f-79a6-b0d2-90bd-c802dfa91d7d" testName="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0009013" startTime="2012-12-08T01:42:40.6739330+08:00" endTime="2012-12-08T01:42:40.6779332+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="469df818-0d37-43a3-a09a-1ea4a56fe78f" testId="2ec0cb6a-0e2c-7b87-322a-eed8f9432ae6" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0012568" startTime="2012-12-08T01:42:40.6829335+08:00" endTime="2012-12-08T01:42:40.6879338+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d62956ab-cc6a-4800-8aa4-f181fe6f551f" testId="3c3537dd-0a85-8c09-fbce-0fe540616ae8" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0005844" startTime="2012-12-08T01:42:40.6909340+08:00" endTime="2012-12-08T01:42:40.6949342+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="93a418c4-cb53-4583-81f5-ff593e064d55" testId="97035d4c-58db-3eef-de98-be4571829869" testName="Store_One_Bag_When_Cabinet_Has_EmptyBox_Return_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0002521" startTime="2012-12-08T01:42:40.6979344+08:00" endTime="2012-12-08T01:42:40.7019346+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46800f63-2d7e-42e9-9e54-9468a388bb1b" testId="9956c182-ae45-5a02-6226-f241d4a86f27" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0010637" startTime="2012-12-08T01:42:40.7059348+08:00" endTime="2012-12-08T01:42:40.7099351+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5dbf965-428e-478e-9ab0-dbc6457c8dc1" testId="a0d9b48c-c41f-dd2c-4199-0879ee5fd2be" testName="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0005421" startTime="2012-12-08T01:42:40.7139353+08:00" endTime="2012-12-08T01:42:40.7179355+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29bfbab3-7bb4-4fe5-839d-b4e4bd6d3c98" testId="a3941f7d-72a4-3280-3519-01826a3ad2a6" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0007377" startTime="2012-12-08T01:42:40.7219358+08:00" endTime="2012-12-08T01:42:40.7259360+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="95bec304-6629-47ee-ac98-ecec772d0c54" testId="ce7f33f9-9475-1133-9989-146c2510893b" testName="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0515503" startTime="2012-12-08T01:42:40.7319363+08:00" endTime="2012-12-08T01:42:40.7869395+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CabinetTest.RobotTest.Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at CabinetSystem.Robot.Store(Bag bag) in D:\SMRs\BootCamp\Cabinet\CabinetSystem\Robot.cs:line 24
+   at CabinetTest.RobotTest.Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket() in D:\SMRs\BootCamp\Cabinet\CabinetTest\RobotTest.cs:line 16
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="32955f92-a9c5-4907-a9df-6fe1a1dd74f6" testId="cf337f3f-06fd-eff3-0301-eb555ab30e69" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0004144" startTime="2012-12-08T01:42:40.7959400+08:00" endTime="2012-12-08T01:42:40.7999402+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6b089b3d-153b-4493-bb58-ece36517f398" testId="d21da168-b89d-96b9-2c8c-212fd5b4719e" testName="Pick_Return_NULL_When_Give_InValid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0002412" startTime="2012-12-08T01:42:40.8059406+08:00" endTime="2012-12-08T01:42:40.8139410+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2dd56b89-e4a9-475a-96cc-05c58f760fa7" testId="d63eeb64-1cb5-22b4-ce0b-4ca4cf739507" testName="StoreBag_In_Highest_Vacancy_Rate_Cabinet" computerName="BGC-HUIZHANG27" duration="00:00:00.0009546" startTime="2012-12-08T01:42:40.8209414+08:00" endTime="2012-12-08T01:42:40.8249416+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bd59d16d-983d-40d3-89e8-d54b8e99b528" testId="e702d8ba-c3ee-7c5d-a320-ac2910ef859d" testName="Store_One_Bag_When_All_Cabinets_Full_Return_Null_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0006024" startTime="2012-12-08T01:42:40.8319420+08:00" endTime="2012-12-08T01:42:40.8359423+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf2a5f02-59d8-40bb-9c47-9673ee226b5a" testId="e80522b4-fe7d-c412-7f8c-3294f406a334" testName="Store_One_Bag_When_Not_All_Cabinets_Full_Return_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0005395" startTime="2012-12-08T01:42:40.8419426+08:00" endTime="2012-12-08T01:42:40.8459428+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18c845b1-b94f-461e-b47e-bbfc23c5577c" testId="fc418ef8-0ecf-3c9c-9c59-e85542f2e812" testName="Pick_One_Bag_When_Cabinet_Has_My_Bag_And_Give_Valid_Ticket" computerName="BGC-HUIZHANG27" duration="00:00:00.0005664" startTime="2012-12-08T01:42:40.8499431+08:00" endTime="2012-12-08T01:42:40.8539433+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

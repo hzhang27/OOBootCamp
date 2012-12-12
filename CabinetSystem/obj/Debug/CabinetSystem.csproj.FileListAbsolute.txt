@@ -1,0 +1,15 @@
+\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetSystem\bin\Debug\CabinetSystem.exe
+\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetSystem\bin\Debug\CabinetSystem.pdb
+\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetSystem\obj\Debug\ResolveAssemblyReference.cache
+\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetSystem\obj\Debug\CabinetSystem.exe
+\\bgc-mw990-del\Share\OOCampProjects\ZhangHui\Cabinet\CabinetSystem\obj\Debug\CabinetSystem.pdb
+D:\Temp\Training2\CabinetSystem\obj\Debug\CabinetSystem.pdb
+D:\Temp\Training2\CabinetSystem\bin\Debug\CabinetSystem.pdb
+D:\Temp\Training2\CabinetSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\Training2\CabinetSystem\bin\Debug\CabinetSystem.dll
+D:\Temp\Training2\CabinetSystem\obj\Debug\CabinetSystem.dll
+D:\SMRs\BootCamp\Cabinet\CabinetSystem\bin\Debug\CabinetSystem.dll
+D:\SMRs\BootCamp\Cabinet\CabinetSystem\bin\Debug\CabinetSystem.pdb
+D:\SMRs\BootCamp\Cabinet\CabinetSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\SMRs\BootCamp\Cabinet\CabinetSystem\obj\Debug\CabinetSystem.dll
+D:\SMRs\BootCamp\Cabinet\CabinetSystem\obj\Debug\CabinetSystem.pdb
